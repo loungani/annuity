@@ -119,3 +119,6 @@ def find_interest_rate(V, R, n, kind):
     print("Bisection method calculated i of " +str(i) + ", equalling value of "
             + str(recalculated_V) + " with error of " + str(error))
     return i
+
+from options import test_output
+test_output()
